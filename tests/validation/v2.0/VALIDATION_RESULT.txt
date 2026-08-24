@@ -1,0 +1,23 @@
+QH256 Validation v2.0
+Specification: QH256 — K501 Formal Scientific Specification v2.0
+TIME_ANCHOR_UNIX=1787594241
+
+Normal build:
+  Tests run:    6620625
+  Tests failed: 0
+  Result:       PASS
+
+ASan/UBSan build:
+  Tests run:    6620625
+  Tests failed: 0
+  Result:       PASS
+
+Full run_validation.sh:
+  PASS
+
+Compiler invocation family:
+  cc -std=c11 -O2 -Wall -Wextra -Wpedantic -Wconversion -Wshadow -Wstrict-prototypes
+
+Sanitizer invocation:
+  cc -std=c11 -O1 -g -Wall -Wextra -Wpedantic -Wconversion -Wshadow -Wstrict-prototypes
+  -fsanitize=address,undefined -fno-omit-frame-pointer

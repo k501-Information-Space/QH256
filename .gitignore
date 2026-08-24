@@ -1,0 +1,15 @@
+# C build artifacts
+*.o
+*.a
+*.so
+
+# QH256 validation executables
+qh256_validation
+qh256_validation_asan
+
+# Generated release build directory
+release-build/
+
+# Editor / OS artifacts
+.DS_Store
+*~

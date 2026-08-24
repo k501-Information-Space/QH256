@@ -1,0 +1,22 @@
+{
+  "schema": "K501-QH256-RELEASE-1.0",
+  "project": "QH256",
+  "release_tag": "REPLACE_ME",
+  "release_title": "REPLACE_ME",
+  "commit": "REPLACE_AFTER_TAG",
+  "artifacts": [
+    {
+      "filename": "REPLACE_ME.tar.gz",
+      "sha256": "REPLACE_ME"
+    },
+    {
+      "filename": "REPLACE_ME.zip",
+      "sha256": "REPLACE_ME"
+    }
+  ],
+  "provenance": {
+    "source_workspace": "REPLACE_ME",
+    "time_anchor_unix": 1787604589,
+    "author_orcid": "https://orcid.org/0009-0004-3275-9545"
+  }
+}

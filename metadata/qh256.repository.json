@@ -1,0 +1,61 @@
+{
+  "schema": "K501-QH256-REPOSITORY-1.0",
+  "project": "QH256",
+  "organization": "k501-Information-Space",
+  "namespace": "K501-AIONARC",
+  "author": {
+    "name": "Patrick R. Miller",
+    "alias": "Iinkognit0",
+    "orcid": "https://orcid.org/0009-0004-3275-9545"
+  },
+  "structure": {
+    "cells": 128,
+    "bits_per_cell": 2,
+    "bits": 256,
+    "bytes": 32,
+    "state_space": "2^256",
+    "states": {
+      "UNKNOWN": "00",
+      "FALSE": "01",
+      "TRUE": "10",
+      "GUARD": "11"
+    }
+  },
+  "principles": [
+    "PROOF_BEFORE_STATE",
+    "RECONSTRUCT_BEFORE_EXTEND",
+    "APPEND_ONLY",
+    "NO_DRIFT",
+    "NO_INTERPRETATION",
+    "STRUCTURE_PRECEDES_MEANING",
+    "TRACEABILITY_REQUIRED",
+    "DERIVED_IS_NOT_CANONICAL"
+  ],
+  "repository": {
+    "canonical": "https://github.com/k501-Information-Space/QH256",
+    "organization": "https://github.com/k501-Information-Space"
+  },
+  "references": {
+    "zenodo": "https://zenodo.org/records/21957465",
+    "mastodon": "https://mastodon.social/@K501",
+    "devto": "https://dev.to/k501is/qh256-in-c-a-deterministic-256-bit-state-structure-for-k501-aionarc-3bji",
+    "website": "https://www.iinkognit0.de/"
+  },
+  "validation": {
+    "v0.1": {
+      "type": "historical_validation_workspace"
+    },
+    "v2.0": {
+      "assertions": 6620625,
+      "failures": 0,
+      "status": "PASS",
+      "scope": "machine-checkable_specification_scope"
+    }
+  },
+  "status": "GO_CONFIRMED",
+  "time_anchor": {
+    "unix_epoch": 1787604589,
+    "utc": "2026-08-24T20:49:49Z",
+    "europe_berlin": "2026-08-24T22:49:49+02:00"
+  }
+}
