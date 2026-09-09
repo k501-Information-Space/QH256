@@ -2,7 +2,7 @@
 
 ## Canonical Repository
 
-QH256 is a deterministic 256-bit information-state structure developed within the K501-AIONARC Information Space.
+QH256 is a deterministic four-state information algebra and 256-bit state representation developed within the K501-AIONARC Information Space.
 
 Canonical structure:
 
