@@ -1,18 +1,54 @@
 {
-  "schema_id": "K501_INFORMATION_SPACE_MANIFEST/0.2",
-  "package_id": "K501-QH256-INFORMATION-SPACE-ROOT-BOOTSTRAP",
-  "package_version": "0.2",
+  "schema_id": "K501_INFORMATION_SPACE_MANIFEST/0.3",
+  "package_id": "K501-QH256-IS-RECONCILIATION",
+  "package_version": "0.3",
   "time_anchor": {
-    "unix_epoch": 1792577732,
-    "utc": "2026-10-21T10:15:32Z",
-    "europe_berlin": "2026-10-21T12:15:32+02:00",
-    "source": "user-declared root-entrypoint correction anchor"
+    "unix_epoch": 1792578946,
+    "utc": "2026-10-21T10:35:46Z",
+    "europe_berlin": "2026-10-21T12:35:46+02:00",
+    "source": "user-declared correction authorization anchor"
   },
   "repository": "k501-Information-Space/QH256",
-  "base_commit": "a2635acb9caa6f512cfc0743901239fa9e7f9941",
-  "scope_note": "Root-level Information Space bootstrap files plus the referenced root license. Not a complete repository inventory; historical Frame 000 and v0.1 contract are preserved unchanged.",
+  "base_commit": "5cd7e4a6d0a30fcdab5bfee5978f5dc9d58a5d09",
+  "scope_note": "Scoped integrity manifest for the Information Space control surface and selected referenced records. The Index inventories all repository paths, but this manifest does not hash every QH256 payload file. SHA256SUMS.txt and its sidecar are excluded to avoid checksum recursion.",
   "hash_algorithm": "SHA-256",
+  "inventory_path_count": 150,
   "contents": [
+    {
+      "path": "Gateway.json",
+      "bytes": 4638,
+      "sha256": "931b1f11b82cf5b814477a84f437c4b1066083751903af029fa3dc79f3c31a2d"
+    },
+    {
+      "path": "Gateway.md",
+      "bytes": 2425,
+      "sha256": "6148a93ed7f65d8d74b15d5db869310d9b82a2711efc70e0588b13badccc1a90"
+    },
+    {
+      "path": "Index.json",
+      "bytes": 45986,
+      "sha256": "67a03e6eb9d951fc3a4f8b2980a538d3e91fb6d193787b69ef66e9852258767f"
+    },
+    {
+      "path": "Index.md",
+      "bytes": 23418,
+      "sha256": "319bb6d45551a355246d064a2f8a2a2eb57055a0c9a72d1b43a12ff2980103d5"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1087,
+      "sha256": "31d37ce92982543a5efb22b8c4f200bfabc635303a3fb211e69646c8951edb68"
+    },
+    {
+      "path": "LICENSE_SCOPE.md",
+      "bytes": 315,
+      "sha256": "3b11bb3eeb10874b66dc3abc66929439ceb9c5ff29a263883863e2519a7cf51c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4308,
+      "sha256": "dd7ba3729d13ca7696c77e11fff5ff2aaa6d5c38eb7c12bd5831b50dcc2feae3"
+    },
     {
       "path": "docs/OPERATOR_MANUAL.md",
       "bytes": 944,
@@ -39,39 +75,14 @@
       "sha256": "3f39c40afa9be4fe2fccf2ac1c38e7090c4dc52e00526761dd9a073f51a7b07a"
     },
     {
-      "path": "Gateway.json",
-      "bytes": 1812,
-      "sha256": "ebe355d4a6d826dc331bd0cc131b8e8fd7d83e55657184d18c92d6d2f8dc4ddc"
+      "path": "frames/FRAME_002_RECONCILIATION.json",
+      "bytes": 3792,
+      "sha256": "eb6f200a98901a99fd78c14dd7de673422378ebea2a7d35ca673815ae254e469"
     },
     {
-      "path": "Gateway.md",
-      "bytes": 1244,
-      "sha256": "bda3cc3a77578fe3f11699d078a3b58213a0d2fd22db1b3b818883d99ebe78b0"
-    },
-    {
-      "path": "Index.json",
-      "bytes": 4626,
-      "sha256": "f3c7ff0c0fdb7e661ac237bad358dafc4941e46c5424131198440bc68bfab5a7"
-    },
-    {
-      "path": "Index.md",
-      "bytes": 2012,
-      "sha256": "1313272127d2236bd8e5d512db978dc8e963bf1df819452a2d931386f881308c"
-    },
-    {
-      "path": "LICENSE",
-      "bytes": 1087,
-      "sha256": "31d37ce92982543a5efb22b8c4f200bfabc635303a3fb211e69646c8951edb68"
-    },
-    {
-      "path": "LICENSE_SCOPE.md",
-      "bytes": 315,
-      "sha256": "3b11bb3eeb10874b66dc3abc66929439ceb9c5ff29a263883863e2519a7cf51c"
-    },
-    {
-      "path": "README.md",
-      "bytes": 4649,
-      "sha256": "dd6e5c023905ffc21909c2b841a7bc3b5c92aed8d7d29fc64294cea1c16f09ce"
+      "path": "frames/FRAME_002_RECONCILIATION.md",
+      "bytes": 2532,
+      "sha256": "ed722458365dae9377864d71df2c33af02c09e56a01537e5c18c8be1ff840daa"
     },
     {
       "path": "runs/run.schema.json",
@@ -97,6 +108,16 @@
       "path": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.2.md",
       "bytes": 2100,
       "sha256": "2605ce137f8d653c56ff95973ef4825035fa9fb22d4a674d2e69a0de729520b0"
+    },
+    {
+      "path": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.3.json",
+      "bytes": 3499,
+      "sha256": "b3704aa252180fed1245ae965ae372d4ca4e65ef9b2465af8c7dbec1be9f7e82"
+    },
+    {
+      "path": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.3.md",
+      "bytes": 3874,
+      "sha256": "c234fd10ddb6de4716b6ffc747ffcbef0a7270792de1805d1c9ead2e4a936adc"
     }
   ]
 }
