@@ -1,0 +1,99 @@
+{
+  "schema_id": "K501_INFORMATION_SPACE_STRUCTURE_SPEC/0.3",
+  "specification_id": "K501-QH256-IS-STRUCTURE-0.3",
+  "status": "CURRENT_REPOSITORY_RECONCILIATION_CONTRACT",
+  "scope": "Complete path inventory and separation of Information Space control surface from existing QH256 payload",
+  "time_anchor": {
+    "unix_epoch": 1792578946,
+    "utc": "2026-10-21T10:35:46Z",
+    "europe_berlin": "2026-10-21T12:35:46+02:00",
+    "source": "user-declared correction authorization anchor"
+  },
+  "input_main_commit": "5cd7e4a6d0a30fcdab5bfee5978f5dc9d58a5d09",
+  "active_contract": "K501-QH256-IS-STRUCTURE-0.3",
+  "preserved_historical_contracts": [
+    "K501-QH256-IS-STRUCTURE-0.1",
+    "K501-QH256-IS-STRUCTURE-0.2"
+  ],
+  "layers": {
+    "control_surface": {
+      "paths": [
+        "README.md",
+        "Gateway.md",
+        "Gateway.json",
+        "Index.md",
+        "Index.json",
+        "frames/",
+        "runs/run.schema.json",
+        "specifications/",
+        "docs/OPERATOR_MANUAL.md",
+        "MANIFEST.json",
+        "SHA256SUMS.txt",
+        "SHA256SUMS.txt.sha256",
+        "LICENSE_SCOPE.md"
+      ]
+    },
+    "existing_qh256_payload": {
+      "paths": [
+        ".gitignore",
+        "LICENSE",
+        "docs/* except docs/OPERATOR_MANUAL.md",
+        "metadata/",
+        "obsolete/",
+        "pipeline/",
+        "references/",
+        "releases/",
+        "scripts/",
+        "tests/"
+      ]
+    },
+    "shared_containers": [
+      {
+        "path": "docs/",
+        "classification": "SHARED_CONTAINER",
+        "rule": "OPERATOR_MANUAL.md=control surface; other docs children=QH256 project documentation"
+      }
+    ]
+  },
+  "inventory": {
+    "source_tree_commit": "5cd7e4a6d0a30fcdab5bfee5978f5dc9d58a5d09",
+    "source_tree_path_entries": 146,
+    "added_paths": [
+      "frames/FRAME_002_RECONCILIATION.md",
+      "frames/FRAME_002_RECONCILIATION.json",
+      "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.3.md",
+      "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.3.json"
+    ],
+    "expected_candidate_tree_path_entries": 150,
+    "entries_include_directories": true,
+    "complete": true
+  },
+  "historical_path_resolution": {
+    "status": "HISTORICAL_ONLY_NO_NESTED_PATHS_ARE_ACTIVE",
+    "crosswalk": {
+      "information-space/Gateway.md": "Gateway.md",
+      "information-space/Gateway.json": "Gateway.json",
+      "information-space/Index.md": "Index.md",
+      "information-space/Index.json": "Index.json",
+      "information-space/frames/": "frames/",
+      "information-space/runs/run.schema.json": "runs/run.schema.json",
+      "information-space/docs/OPERATOR_MANUAL.md": "docs/OPERATOR_MANUAL.md",
+      "information-space/LICENSE.md": "LICENSE_SCOPE.md (scope pointer); LICENSE remains authoritative",
+      "information-space/MANIFEST.json": "MANIFEST.json",
+      "information-space/SHA256SUMS.txt": "SHA256SUMS.txt"
+    }
+  },
+  "invariants": [
+    "COMPLETE_TREE_PATH_INVENTORY",
+    "CONTROL_SURFACE_DISTINCT_FROM_QH256_PAYLOAD",
+    "APPEND_ONLY_HISTORICAL_RECORDS",
+    "NO_QH256_PAYLOAD_PATH_REMOVAL",
+    "CURRENT_PATHS_RESOLVE",
+    "HISTORICAL_PATHS_REQUIRE_EXPLICIT_CROSSWALK",
+    "SCOPED_MANIFEST_BOUNDARY_DECLARED",
+    "SHA256_UTF8_BYTES",
+    "QH256_ALGEBRA_BOUNDARY_PRESERVED",
+    "CANONICALITY_REQUIRES_MAIN_READBACK"
+  ],
+  "manifest_boundary": "Manifest hashes the declared Information Space control surface and selected referenced records only; full path inventory does not imply all payload bytes are included."
+}
