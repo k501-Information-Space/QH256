@@ -1,0 +1,40 @@
+{
+  "schema_id": "K501_INFORMATION_SPACE_GATEWAY/0.1",
+  "gateway_id": "K501-QH256-GATEWAY-0.1",
+  "scope": "QH256 repository navigation layer",
+  "repository": "https://github.com/k501-Information-Space/QH256",
+  "default_branch": "main",
+  "entry_document": "information-space/Gateway.md",
+  "index": {
+    "human": "information-space/Index.md",
+    "machine": "information-space/Index.json",
+    "index_id": "K501-QH256-INDEX-0.1",
+    "classification": "DERIVED"
+  },
+  "current_frame": {
+    "human": "information-space/frames/FRAME_000_BOOTSTRAP.md",
+    "machine": "information-space/frames/FRAME_000_BOOTSTRAP.json",
+    "frame_id": "K501-QH256-IS-FRAME-000"
+  },
+  "operator_manual": "information-space/docs/OPERATOR_MANUAL.md",
+  "structure_specification": "information-space/specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.md",
+  "run_schema": "information-space/runs/run.schema.json",
+  "integrity": {
+    "manifest": "information-space/MANIFEST.json",
+    "sha256_list": "information-space/SHA256SUMS.txt",
+    "sidecar": "information-space/SHA256SUMS.txt.sha256",
+    "verify_from_repo_root": "sha256sum -c information-space/SHA256SUMS.txt"
+  },
+  "boundary": {
+    "qh256": "deterministic four-state algebra and 256-bit state representation",
+    "history_provenance_runs": "externally represented",
+    "gateway_index": "navigation only"
+  },
+  "status": "INITIAL_BOOTSTRAP_CANDIDATE",
+  "time_anchor": {
+    "unix_epoch": 1792574554,
+    "utc": "2026-10-21T09:22:34Z",
+    "europe_berlin": "2026-10-21T11:22:34+02:00",
+    "source": "user-declared action anchor"
+  }
+}

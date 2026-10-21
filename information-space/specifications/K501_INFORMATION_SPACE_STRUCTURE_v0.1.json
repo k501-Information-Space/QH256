@@ -1,0 +1,45 @@
+{
+  "schema_id": "K501_INFORMATION_SPACE_STRUCTURE_SPEC/0.1",
+  "specification_id": "K501-QH256-IS-STRUCTURE-0.1",
+  "status": "INITIAL_STRUCTURAL_CONTRACT",
+  "scope": "QH256 repository navigation layer only",
+  "time_anchor": {
+    "unix_epoch": 1792574554,
+    "utc": "2026-10-21T09:22:34Z",
+    "europe_berlin": "2026-10-21T11:22:34+02:00",
+    "source": "user-declared action anchor"
+  },
+  "components": {
+    "gateway": {
+      "human": "information-space/Gateway.md",
+      "machine": "information-space/Gateway.json"
+    },
+    "index": {
+      "human": "information-space/Index.md",
+      "machine": "information-space/Index.json",
+      "classification": "DERIVED"
+    },
+    "frames": {
+      "path": "information-space/frames/",
+      "rule": "APPEND_ONLY"
+    },
+    "runs": {
+      "path": "information-space/runs/",
+      "schema": "information-space/runs/run.schema.json"
+    },
+    "operator_manual": "information-space/docs/OPERATOR_MANUAL.md",
+    "license_reference": "information-space/LICENSE.md",
+    "manifest": "information-space/MANIFEST.json",
+    "sha256_list": "information-space/SHA256SUMS.txt"
+  },
+  "invariants": [
+    "QH256_ALGEBRA_BOUNDARY_PRESERVED",
+    "HISTORY_AND_PROVENANCE_EXTERNAL",
+    "FRAMES_AND_RUNS_APPEND_ONLY",
+    "INDEX_IS_DERIVED",
+    "NO_PHANTOM_PATHS",
+    "PR_MERGE_AND_READBACK_REQUIRED_FOR_CANONICAL_MAIN",
+    "SHA256_IS_NOT_PROVENANCE_PROOF"
+  ],
+  "extension_policy": "One bounded change at a time, with exact input/output binding and a new frame for verified transitions."
+}
