@@ -1,11 +1,11 @@
 # QH256 — K501 Information Space
 
-**Repository root:** visible landing page. The Information Space control surface is exposed here; existing QH256 project payload remains at established paths.
+**Repository root:** this is the visible landing page. The Information Space control surface is exposed here; existing QH256 project payload remains at established paths.
 
 ## Current entrypoints
 
 - **Gateway:** [Gateway.md](Gateway.md) / [Gateway.json](Gateway.json).
-- **Complete Index:** [Index.md](Index.md) / [Index.json] — every file and directory path, classified by layer.
+- **Complete Index:** [Index.md](Index.md) / [Index.json](Index.json) — every file and directory path, classified by layer.
 - **Current structure:** [v0.3 Markdown](specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.3.md) / [v0.3 JSON](specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.3.json).
 - **Current reconciliation frame:** [Frame 002](frames/FRAME_002_RECONCILIATION.md) / [machine record](frames/FRAME_002_RECONCILIATION.json).
 - **Historical transitions:** [Frame 001](frames/FRAME_001_ROOT_ENTRYPOINT.md) and [Frame 000](frames/FRAME_000_BOOTSTRAP.md).
