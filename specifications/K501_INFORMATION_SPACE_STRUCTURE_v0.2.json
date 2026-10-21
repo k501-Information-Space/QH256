@@ -1,0 +1,69 @@
+{
+  "schema_id": "K501_INFORMATION_SPACE_STRUCTURE_SPEC/0.2",
+  "specification_id": "K501-QH256-IS-STRUCTURE-0.2",
+  "status": "ROOT_LEVEL_NAVIGATION_CONTRACT",
+  "scope": "QH256 repository landing page and Information Space navigation",
+  "time_anchor": {
+    "unix_epoch": 1792577732,
+    "utc": "2026-10-21T10:15:32Z",
+    "europe_berlin": "2026-10-21T12:15:32+02:00",
+    "source": "user-declared root-entrypoint correction anchor"
+  },
+  "components": {
+    "repository_landing": "README.md",
+    "gateway": {
+      "human": "Gateway.md",
+      "machine": "Gateway.json"
+    },
+    "index": {
+      "human": "Index.md",
+      "machine": "Index.json",
+      "classification": "DERIVED"
+    },
+    "current_frame": {
+      "human": "frames/FRAME_001_ROOT_ENTRYPOINT.md",
+      "machine": "frames/FRAME_001_ROOT_ENTRYPOINT.json"
+    },
+    "previous_frame": {
+      "human": "frames/FRAME_000_BOOTSTRAP.md",
+      "machine": "frames/FRAME_000_BOOTSTRAP.json"
+    },
+    "frames": {
+      "path": "frames/",
+      "rule": "APPEND_ONLY"
+    },
+    "runs": {
+      "path": "runs/",
+      "schema": "runs/run.schema.json",
+      "rule": "APPEND_ONLY_EVIDENCE"
+    },
+    "operator_manual": "docs/OPERATOR_MANUAL.md",
+    "specifications": {
+      "path": "specifications/",
+      "current": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.2.json",
+      "historical": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.json"
+    },
+    "license_scope": "LICENSE_SCOPE.md",
+    "manifest": "MANIFEST.json",
+    "sha256_list": "SHA256SUMS.txt",
+    "sha256_sidecar": "SHA256SUMS.txt.sha256"
+  },
+  "invariants": [
+    "ROOT_README_IS_REPOSITORY_LANDING_ENTRYPOINT",
+    "GATEWAY_AND_INDEX_AT_REPOSITORY_ROOT",
+    "FRAME_000_PRESERVED_UNCHANGED",
+    "INITIAL_V0_1_SPECIFICATION_PRESERVED_UNCHANGED",
+    "QH256_ALGEBRA_BOUNDARY_PRESERVED",
+    "APPEND_ONLY_FRAMES_AND_RUNS",
+    "NO_HISTORICAL_VALIDATION_ARTIFACTS_CHANGED",
+    "NO_PHANTOM_PATHS",
+    "SHA256_IDENTIFIES_BYTES_NOT_SEMANTIC_CORRECTNESS"
+  ],
+  "transition": {
+    "from": "information-space/",
+    "to": "repository root",
+    "frame_id": "K501-QH256-IS-FRAME-001",
+    "pre_transition_main_commit": "a2635acb9caa6f512cfc0743901239fa9e7f9941"
+  },
+  "extension_policy": "Make one bounded change, verify path resolution and exact file checksums, review the candidate diff, then record the resulting transition as a new frame."
+}

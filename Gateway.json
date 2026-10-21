@@ -1,0 +1,47 @@
+{
+  "schema_id": "K501_INFORMATION_SPACE_GATEWAY/0.2",
+  "gateway_id": "K501-QH256-GATEWAY-0.2",
+  "scope": "Root-level QH256 Information Space navigation layer",
+  "repository": "https://github.com/k501-Information-Space/QH256",
+  "default_branch": "main",
+  "entry_document": "Gateway.md",
+  "index": {
+    "human": "Index.md",
+    "machine": "Index.json",
+    "index_id": "K501-QH256-INDEX-0.2",
+    "classification": "DERIVED"
+  },
+  "current_frame": {
+    "human": "frames/FRAME_001_ROOT_ENTRYPOINT.md",
+    "machine": "frames/FRAME_001_ROOT_ENTRYPOINT.json",
+    "frame_id": "K501-QH256-IS-FRAME-001"
+  },
+  "previous_frame": {
+    "human": "frames/FRAME_000_BOOTSTRAP.md",
+    "machine": "frames/FRAME_000_BOOTSTRAP.json",
+    "frame_id": "K501-QH256-IS-FRAME-000"
+  },
+  "operator_manual": "docs/OPERATOR_MANUAL.md",
+  "structure_specification": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.2.md",
+  "initial_structure_specification": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.md",
+  "run_schema": "runs/run.schema.json",
+  "integrity": {
+    "manifest": "MANIFEST.json",
+    "sha256_list": "SHA256SUMS.txt",
+    "sidecar": "SHA256SUMS.txt.sha256",
+    "verify_from_repo_root": "sha256sum -c SHA256SUMS.txt"
+  },
+  "boundary": {
+    "qh256": "deterministic four-state algebra and 256-bit state representation",
+    "history_provenance_runs": "externally represented",
+    "gateway_index": "navigation only"
+  },
+  "status": "ROOT_LEVEL_NAVIGATION_TRANSITION",
+  "canonicality_rule": "The default branch and commit history establish canonical status; file content alone does not.",
+  "time_anchor": {
+    "unix_epoch": 1792577732,
+    "utc": "2026-10-21T10:15:32Z",
+    "europe_berlin": "2026-10-21T12:15:32+02:00",
+    "source": "user-declared root-entrypoint correction anchor"
+  }
+}
