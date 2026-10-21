@@ -1,0 +1,149 @@
+{
+  "schema_id": "K501_INFORMATION_SPACE_INDEX/0.2",
+  "index_id": "K501-QH256-INDEX-0.2",
+  "classification": "DERIVED",
+  "repository": "k501-Information-Space/QH256",
+  "base_commit": "a2635acb9caa6f512cfc0743901239fa9e7f9941",
+  "current_frame_id": "K501-QH256-IS-FRAME-001",
+  "entries": [
+    {
+      "id": "QH256-ROOT-README",
+      "path": "README.md",
+      "role": "repository_landing_and_navigation_root",
+      "classification": "ROOT_ENTRYPOINT"
+    },
+    {
+      "id": "QH256-ROOT-LICENSE",
+      "path": "LICENSE",
+      "role": "license_authority",
+      "classification": "EXISTING_UNCHANGED"
+    },
+    {
+      "id": "QH256-METADATA",
+      "path": "metadata/qh256.repository.json",
+      "role": "identity_and_dimensions",
+      "classification": "EXISTING_REFERENCE"
+    },
+    {
+      "id": "QH256-ARCHITECTURE",
+      "path": "docs/ARCHITECTURE.md",
+      "role": "algebra_and_repository_boundary",
+      "classification": "EXISTING_REFERENCE"
+    },
+    {
+      "id": "K501-QH256-GATEWAY-MD",
+      "path": "Gateway.md",
+      "role": "human_entry",
+      "classification": "ROOT_ENTRYPOINT"
+    },
+    {
+      "id": "K501-QH256-GATEWAY-JSON",
+      "path": "Gateway.json",
+      "role": "machine_entry",
+      "classification": "ROOT_ENTRYPOINT"
+    },
+    {
+      "id": "K501-QH256-INDEX-MD",
+      "path": "Index.md",
+      "role": "human_index",
+      "classification": "DERIVED"
+    },
+    {
+      "id": "K501-QH256-INDEX-JSON",
+      "path": "Index.json",
+      "role": "machine_index",
+      "classification": "DERIVED"
+    },
+    {
+      "id": "K501-QH256-FRAME-000-MD",
+      "path": "frames/FRAME_000_BOOTSTRAP.md",
+      "role": "initial_bootstrap_declaration",
+      "classification": "HISTORICAL_FRAME"
+    },
+    {
+      "id": "K501-QH256-FRAME-000-JSON",
+      "path": "frames/FRAME_000_BOOTSTRAP.json",
+      "role": "initial_bootstrap_machine_record",
+      "classification": "HISTORICAL_FRAME"
+    },
+    {
+      "id": "K501-QH256-FRAME-001-MD",
+      "path": "frames/FRAME_001_ROOT_ENTRYPOINT.md",
+      "role": "root_navigation_transition",
+      "classification": "CURRENT_TRANSITION_FRAME"
+    },
+    {
+      "id": "K501-QH256-FRAME-001-JSON",
+      "path": "frames/FRAME_001_ROOT_ENTRYPOINT.json",
+      "role": "root_navigation_transition_machine_record",
+      "classification": "CURRENT_TRANSITION_FRAME"
+    },
+    {
+      "id": "K501-QH256-RUN-SCHEMA",
+      "path": "runs/run.schema.json",
+      "role": "run_record_contract",
+      "classification": "SPECIFICATION"
+    },
+    {
+      "id": "K501-QH256-OPERATOR-MANUAL",
+      "path": "docs/OPERATOR_MANUAL.md",
+      "role": "operator_instructions",
+      "classification": "DOCUMENTATION"
+    },
+    {
+      "id": "K501-QH256-STRUCTURE-SPEC-V0.1-MD",
+      "path": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.md",
+      "role": "initial_nested_layout_contract",
+      "classification": "HISTORICAL_SPECIFICATION"
+    },
+    {
+      "id": "K501-QH256-STRUCTURE-SPEC-V0.1-JSON",
+      "path": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.json",
+      "role": "initial_nested_layout_machine_contract",
+      "classification": "HISTORICAL_SPECIFICATION"
+    },
+    {
+      "id": "K501-QH256-STRUCTURE-SPEC-V0.2-MD",
+      "path": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.2.md",
+      "role": "root_level_layout_contract",
+      "classification": "CURRENT_SPECIFICATION"
+    },
+    {
+      "id": "K501-QH256-STRUCTURE-SPEC-V0.2-JSON",
+      "path": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.2.json",
+      "role": "root_level_layout_machine_contract",
+      "classification": "CURRENT_SPECIFICATION"
+    },
+    {
+      "id": "K501-QH256-LICENSE-SCOPE",
+      "path": "LICENSE_SCOPE.md",
+      "role": "license_scope_pointer",
+      "classification": "LICENSE_REFERENCE"
+    },
+    {
+      "id": "K501-QH256-MANIFEST",
+      "path": "MANIFEST.json",
+      "role": "artifact_manifest",
+      "classification": "INTEGRITY_METADATA"
+    },
+    {
+      "id": "K501-QH256-SHA256",
+      "path": "SHA256SUMS.txt",
+      "role": "checksum_list",
+      "classification": "INTEGRITY_EVIDENCE"
+    },
+    {
+      "id": "K501-QH256-SHA256-SIDECAR",
+      "path": "SHA256SUMS.txt.sha256",
+      "role": "checksum_of_checksum_list",
+      "classification": "INTEGRITY_EVIDENCE"
+    }
+  ],
+  "scope_note": "Root-level Information Space navigation map; not a complete repository-wide inventory.",
+  "time_anchor": {
+    "unix_epoch": 1792577732,
+    "utc": "2026-10-21T10:15:32Z",
+    "europe_berlin": "2026-10-21T12:15:32+02:00",
+    "source": "user-declared root-entrypoint correction anchor"
+  }
+}

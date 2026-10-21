@@ -1,0 +1,102 @@
+{
+  "schema_id": "K501_INFORMATION_SPACE_MANIFEST/0.2",
+  "package_id": "K501-QH256-INFORMATION-SPACE-ROOT-BOOTSTRAP",
+  "package_version": "0.2",
+  "time_anchor": {
+    "unix_epoch": 1792577732,
+    "utc": "2026-10-21T10:15:32Z",
+    "europe_berlin": "2026-10-21T12:15:32+02:00",
+    "source": "user-declared root-entrypoint correction anchor"
+  },
+  "repository": "k501-Information-Space/QH256",
+  "base_commit": "a2635acb9caa6f512cfc0743901239fa9e7f9941",
+  "scope_note": "Root-level Information Space bootstrap files plus the referenced root license. Not a complete repository inventory; historical Frame 000 and v0.1 contract are preserved unchanged.",
+  "hash_algorithm": "SHA-256",
+  "contents": [
+    {
+      "path": "docs/OPERATOR_MANUAL.md",
+      "bytes": 944,
+      "sha256": "f471ed8466d75699f6a134d18cd12dd192ef2a6c53e63162d31f026bcfe193cf"
+    },
+    {
+      "path": "frames/FRAME_000_BOOTSTRAP.json",
+      "bytes": 1421,
+      "sha256": "55f124cb131e3e5ce22dac2164b0b4f1edbeee95656ea5754a84cd596dfc44d0"
+    },
+    {
+      "path": "frames/FRAME_000_BOOTSTRAP.md",
+      "bytes": 995,
+      "sha256": "fdbe34e3a4bf21db198944cb287729230feefef269c196acccca613d3a7a26bd"
+    },
+    {
+      "path": "frames/FRAME_001_ROOT_ENTRYPOINT.json",
+      "bytes": 2002,
+      "sha256": "b73ba67463eb69aad4306370216ed1272abbe366c07b8610cb34a38efcc8d66f"
+    },
+    {
+      "path": "frames/FRAME_001_ROOT_ENTRYPOINT.md",
+      "bytes": 1808,
+      "sha256": "3f39c40afa9be4fe2fccf2ac1c38e7090c4dc52e00526761dd9a073f51a7b07a"
+    },
+    {
+      "path": "Gateway.json",
+      "bytes": 1812,
+      "sha256": "ebe355d4a6d826dc331bd0cc131b8e8fd7d83e55657184d18c92d6d2f8dc4ddc"
+    },
+    {
+      "path": "Gateway.md",
+      "bytes": 1244,
+      "sha256": "bda3cc3a77578fe3f11699d078a3b58213a0d2fd22db1b3b818883d99ebe78b0"
+    },
+    {
+      "path": "Index.json",
+      "bytes": 4626,
+      "sha256": "f3c7ff0c0fdb7e661ac237bad358dafc4941e46c5424131198440bc68bfab5a7"
+    },
+    {
+      "path": "Index.md",
+      "bytes": 2012,
+      "sha256": "1313272127d2236bd8e5d512db978dc8e963bf1df819452a2d931386f881308c"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1087,
+      "sha256": "31d37ce92982543a5efb22b8c4f200bfabc635303a3fb211e69646c8951edb68"
+    },
+    {
+      "path": "LICENSE_SCOPE.md",
+      "bytes": 315,
+      "sha256": "3b11bb3eeb10874b66dc3abc66929439ceb9c5ff29a263883863e2519a7cf51c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4649,
+      "sha256": "dd6e5c023905ffc21909c2b841a7bc3b5c92aed8d7d29fc64294cea1c16f09ce"
+    },
+    {
+      "path": "runs/run.schema.json",
+      "bytes": 2565,
+      "sha256": "eaddeb3e73ae2b05f4155088f4b4f681e85b44bd2593980c87e7102db7f4a132"
+    },
+    {
+      "path": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.json",
+      "bytes": 1540,
+      "sha256": "3e2a5e73ad24d9f11a5e39deaa1176d7465692cbfa1a9a0d571c0751441c1b36"
+    },
+    {
+      "path": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.md",
+      "bytes": 1340,
+      "sha256": "23c2d9a54fae9e07f8470dd82b602376c17bef6310c3acc8ccff0e43d939afad"
+    },
+    {
+      "path": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.2.json",
+      "bytes": 2399,
+      "sha256": "09c7e229e4d48e5fe110386a17378bfbe1254086fb37a08878fdd431726e0864"
+    },
+    {
+      "path": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.2.md",
+      "bytes": 2100,
+      "sha256": "2605ce137f8d653c56ff95973ef4825035fa9fb22d4a674d2e69a0de729520b0"
+    }
+  ]
+}

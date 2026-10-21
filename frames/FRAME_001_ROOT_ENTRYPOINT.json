@@ -1,0 +1,54 @@
+{
+  "schema_id": "K501_INFORMATION_SPACE_FRAME/0.2",
+  "frame_id": "K501-QH256-IS-FRAME-001",
+  "frame_type": "ROOT_ENTRYPOINT_TRANSITION",
+  "time_anchor": {
+    "unix_epoch": 1792577732,
+    "utc": "2026-10-21T10:15:32Z",
+    "europe_berlin": "2026-10-21T12:15:32+02:00",
+    "source": "user-declared root-entrypoint correction anchor"
+  },
+  "repository": "k501-Information-Space/QH256",
+  "base_ref": "main",
+  "pre_transition_main_commit": "a2635acb9caa6f512cfc0743901239fa9e7f9941",
+  "previous_frame_id": "K501-QH256-IS-FRAME-000",
+  "transition": {
+    "from_layout_prefix": "information-space/",
+    "to_layout": "repository root",
+    "landing_page": "README.md",
+    "gateway": {
+      "human": "Gateway.md",
+      "machine": "Gateway.json"
+    },
+    "index": {
+      "human": "Index.md",
+      "machine": "Index.json"
+    },
+    "current_frame": {
+      "human": "frames/FRAME_001_ROOT_ENTRYPOINT.md",
+      "machine": "frames/FRAME_001_ROOT_ENTRYPOINT.json"
+    },
+    "run_schema": "runs/run.schema.json",
+    "operator_manual": "docs/OPERATOR_MANUAL.md",
+    "structure_specification": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.2.json",
+    "manifest": "MANIFEST.json",
+    "checksum_list": "SHA256SUMS.txt",
+    "checksum_sidecar": "SHA256SUMS.txt.sha256"
+  },
+  "preserved_records": [
+    "frames/FRAME_000_BOOTSTRAP.md",
+    "frames/FRAME_000_BOOTSTRAP.json",
+    "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.md",
+    "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.json"
+  ],
+  "invariants": [
+    "ROOT_README_IS_REPOSITORY_LANDING_ENTRYPOINT",
+    "GATEWAY_AND_INDEX_AT_REPOSITORY_ROOT",
+    "FRAME_000_PRESERVED_UNCHANGED",
+    "INITIAL_V0_1_SPECIFICATION_PRESERVED_UNCHANGED",
+    "QH256_ALGEBRA_BOUNDARY_PRESERVED",
+    "APPEND_ONLY_FRAMES_AND_RUNS",
+    "NO_HISTORICAL_VALIDATION_ARTIFACTS_CHANGED"
+  ],
+  "status_boundary": "Records a navigation path transition. Canonical status derives from the repository default branch and its commit history."
+}
