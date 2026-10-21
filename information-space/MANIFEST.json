@@ -1,0 +1,87 @@
+{
+  "schema_id": "K501_INFORMATION_SPACE_MANIFEST/0.1",
+  "package_id": "K501-QH256-INFORMATION-SPACE-BOOTSTRAP",
+  "package_version": "0.1",
+  "time_anchor": {
+    "unix_epoch": 1792574554,
+    "utc": "2026-10-21T09:22:34Z",
+    "europe_berlin": "2026-10-21T11:22:34+02:00",
+    "source": "user-declared action anchor"
+  },
+  "repository": "k501-Information-Space/QH256",
+  "base_commit": "69491703231eb08a6b9873ac744113d276f17ab7",
+  "scope_note": "Bootstrap file set plus referenced root license. Does not claim full-repository inventory or validation of referenced code.",
+  "hash_algorithm": "SHA-256",
+  "contents": [
+    {
+      "path": "LICENSE",
+      "bytes": 1087,
+      "sha256": "61098200a2ffdaa931d245de467e6bfa0fb4fa2a2397900906a85f16d82719ef"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2994,
+      "sha256": "bf0e6f8e12b4279097129c4c870f753775c2100a0069628899079aaf3aa495a5"
+    },
+    {
+      "path": "information-space/Gateway.json",
+      "bytes": 1591,
+      "sha256": "60a9578bbf666e72346acb44dde18b5037ad9b1aae35e0bf3f62fcd7d2315321"
+    },
+    {
+      "path": "information-space/Gateway.md",
+      "bytes": 834,
+      "sha256": "698d01afe1d1a01f25dd2c3b75edbe0cb30cd6b0391987e989d90e84bba92b4b"
+    },
+    {
+      "path": "information-space/Index.json",
+      "bytes": 3748,
+      "sha256": "e8222fc3e802c9804f7f9d7ad833177799bd886b7393791a857ec225801d040d"
+    },
+    {
+      "path": "information-space/Index.md",
+      "bytes": 1480,
+      "sha256": "5dc7a5b4ccc3045e3232d3510c559b585d7a6b0345942bc1f4c6d54cf9ef52d4"
+    },
+    {
+      "path": "information-space/LICENSE.md",
+      "bytes": 325,
+      "sha256": "ba2bb9978b4380d0b4edcac71c198cc20352b0965f981c2faaf4395f4bad177d"
+    },
+    {
+      "path": "information-space/README.md",
+      "bytes": 1239,
+      "sha256": "3721bd6054b19d76fdcc0d19c115f3e06df18a468a0d9d0f63e2b948bdbdc81f"
+    },
+    {
+      "path": "information-space/docs/OPERATOR_MANUAL.md",
+      "bytes": 944,
+      "sha256": "c9c14a3a50b3b34afa13304b34af0660f64592063d5c756d48aa431e5505e858"
+    },
+    {
+      "path": "information-space/frames/FRAME_000_BOOTSTRAP.json",
+      "bytes": 1421,
+      "sha256": "3a747e4086af608dedd664a3b069b79c9bb53a79ea39acb519b1e904e0e10995"
+    },
+    {
+      "path": "information-space/frames/FRAME_000_BOOTSTRAP.md",
+      "bytes": 995,
+      "sha256": "913ceaa83cbb28b0a8873f49c306b23014a8894fc3c32c4b9068348c70951316"
+    },
+    {
+      "path": "information-space/runs/run.schema.json",
+      "bytes": 2565,
+      "sha256": "03f2311e1f8cbefea603d1216b87e168c0bc9615d72cf654442e7093e3fc5ac6"
+    },
+    {
+      "path": "information-space/specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.json",
+      "bytes": 1540,
+      "sha256": "e4bc8fc5614d0cdd866a248b06fa81919aa72d22a009e1bde80c35d1842ebb93"
+    },
+    {
+      "path": "information-space/specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.md",
+      "bytes": 1340,
+      "sha256": "adc4094f44b5ad185212295021cb5250d4a06bc5d76c13dcf6e38ba48603fe2e"
+    }
+  ]
+}

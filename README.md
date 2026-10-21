@@ -82,3 +82,9 @@ ORCID: https://orcid.org/0009-0004-3275-9545
 ## Status
 
 This repository is intended to preserve the implementation, validation evidence, historical evolution, and machine-readable metadata without collapsing them into a single semantic layer.
+
+## K501 Information Space Navigation
+
+The scoped navigation bootstrap is maintained in [information-space/README.md](information-space/README.md). Start with the human/machine [Gateway](information-space/Gateway.md) / [Gateway.json](information-space/Gateway.json), then follow the [Index](information-space/Index.md) / [Index.json](information-space/Index.json), the bootstrap [Frame 000](information-space/frames/FRAME_000_BOOTSTRAP.md), and the [Operator Manual](information-space/docs/OPERATOR_MANUAL.md).
+
+This navigation layer does not redefine QH256. QH256 remains the state algebra; history, provenance, runs, and reconstruction context remain externally represented and explicitly linked.

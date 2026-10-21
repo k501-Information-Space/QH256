@@ -1,0 +1,33 @@
+{
+  "schema_id": "K501_INFORMATION_SPACE_FRAME/0.1",
+  "frame_id": "K501-QH256-IS-FRAME-000",
+  "frame_type": "STRUCTURE_BOOTSTRAP_DECLARATION",
+  "time_anchor": {
+    "unix_epoch": 1792574554,
+    "utc": "2026-10-21T09:22:34Z",
+    "europe_berlin": "2026-10-21T11:22:34+02:00",
+    "source": "user-declared action anchor"
+  },
+  "repository": "k501-Information-Space/QH256",
+  "base_ref": "main",
+  "base_commit": "69491703231eb08a6b9873ac744113d276f17ab7",
+  "previous_frame_id": null,
+  "previous_frame_scope_note": "No predecessor has been assigned inside this newly created navigation scope; repository history remains intact.",
+  "declaration": "Establish a concise, navigable human/machine structure around QH256 while preserving QH256 as the state algebra.",
+  "entrypoints": {
+    "gateway_human": "information-space/Gateway.md",
+    "gateway_machine": "information-space/Gateway.json",
+    "index_human": "information-space/Index.md",
+    "index_machine": "information-space/Index.json"
+  },
+  "invariants": [
+    "NO_DRIFT",
+    "APPEND_ONLY",
+    "PROOF_BEFORE_STATE",
+    "RECONSTRUCT_BEFORE_EXTEND",
+    "STRUCTURE_PRECEDES_MEANING",
+    "DERIVED_IS_NOT_CANONICAL"
+  ],
+  "status_boundary": "Declaration only; does not prove merge, runtime test success, or canonical-main status.",
+  "next_transition_rule": "Append a new frame after verified PR/merge or an independently approved structural transition."
+}

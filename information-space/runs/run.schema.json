@@ -1,0 +1,139 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "K501_INFORMATION_SPACE_RUN/0.1",
+  "title": "K501 Information Space Run Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_id",
+    "run_id",
+    "gate_id",
+    "mode",
+    "time_anchor",
+    "inputs",
+    "outputs",
+    "status",
+    "evidence"
+  ],
+  "properties": {
+    "schema_id": {
+      "const": "K501_INFORMATION_SPACE_RUN/0.1"
+    },
+    "run_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "gate_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "mode": {
+      "enum": [
+        "READ_ONLY",
+        "CONTROLLED_WRITE",
+        "VALIDATION"
+      ]
+    },
+    "time_anchor": {
+      "type": "object",
+      "required": [
+        "unix_epoch",
+        "utc",
+        "source"
+      ],
+      "properties": {
+        "unix_epoch": {
+          "type": "integer"
+        },
+        "utc": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "source": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": true
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/artifact"
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/artifact"
+      }
+    },
+    "status": {
+      "enum": [
+        "PASS",
+        "FAIL",
+        "PARTIAL",
+        "OPEN",
+        "BLOCKED",
+        "NOT_RUN"
+      ]
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/artifact"
+      }
+    },
+    "environment": {
+      "type": "object"
+    },
+    "commands": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "$defs": {
+    "artifact": {
+      "type": "object",
+      "required": [
+        "path",
+        "role"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "version": {
+          "type": "string"
+        },
+        "canonicality": {
+          "enum": [
+            "CANONICAL",
+            "DERIVED",
+            "HISTORICAL",
+            "CANDIDATE",
+            "UNKNOWN"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
